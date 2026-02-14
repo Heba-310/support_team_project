@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navy{
+    height: 10vh;
+}
+.all{
+    height: 100dvh;
+    background-image: url(elevated-view-green-leaves-backdrop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home{
+    min-height: 100vh;
+    overflow: hidden;
+   
+}
+.navbar{
+    background-color: transparent;
+    
+    height: 10vh;
+}
+
+.navy a{
+    color: #fff;
+}
+.navy hr{
+    color: #fff;
+    border: 2px solid white;
+    opacity: 1;
+}
+.home h1 , .home p{
+    color: #fff;
+}
+.home h1{
+    font-size: 5vw;
+    font-weight: 700;
+}
+.home .btn1{
+    background-color: teal;
+    color: #fff;
+    border: 2px solid teal;
+    border-radius: 35px;
+    width: 10vw;
+    height: 9vh;
+    transition: transform 0.5s ease;
+}
+.navy .btn3{
+  background-color: teal;
+    color: #fff;
+    border: 2px solid teal;
+    border-radius: 20px;
+     width: 7vw;
+    height: 6vh;
+    transition: transform 0.5s ease;
+}
+.navy .btn4{
+ background-color: #fff;
+    color:teal;
+    border: 2px solid rgb(251, 252, 252);
+    border-radius: 20px;
+     width: 7vw;
+    height: 6vh;
+    transition: transform 0.5s ease;
+}
+.navbar-brand{
+     font-size: 40px;
+    font-weight: 700;
+}
+.navy a:hover{
+    color: teal;
+}
+.home .btn2{
+    background-color: #fff;
+    color:teal;
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 10vw;
+    height: 9vh;
+    transition: transform 0.5s ease;
+   
+}
+.home .btn1:hover , .navy .btn3:hover{
+ background-color: #fff;
+    color:teal;
+    border: 2px solid white;
+    transform: translateY(-2px);
+   
+}
+.home .btn2:hover , .navy .btn4:hover{
+ background-color: teal;
+    color: #fff;
+    border: 2px solid teal;
+     transform: translateY(-2px);
+}
+.home .square{
+    background-color: #fff;
+    border: 2px slid white;
+    border-radius: 15px;
+    text-align: center;
+}
+.nass{
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
+.nass:not(:last-child)::after{
+    position: absolute;
+    right: 0;
+content: "";
+display: block;
+height: 60%;
+width: 1px;
+background-color: black;
+top:20%;
+}
+.nass h2{
+     font-size: 40px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.nass h2 span{
+    color: teal;
+}
+.nass p{
+    color: rgb(55, 54, 54);
+}
+.mission
+{
+    height: 100vh;
+
+}
+.mission h2{
+      font-size: 50px;
+    font-weight: 600;
+    color: black; 
+}
+.mission span{
+    color:teal;
+}
+.pho{
+   height: 60vh;
+    background-image: url(pexels-harriet-b-392993362-18687550.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.mission i{
+    color: teal;
+}
+ .missiony{
+   border: 2px solid white;
+   border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+ }
+ .vision{
+     border: 2px solid white;
+   border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+ }
+ .cards{
+    height: 60vh;
+ }
+ @media(width: 1024px){
+  .pho{
+    height: 75vh !important;
+  }
+ }
+ @media(width:768){
+    .btn1
+ }
